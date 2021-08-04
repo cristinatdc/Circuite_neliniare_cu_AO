@@ -1,0 +1,10 @@
+clear all;
+close all;
+clc;
+A=1.5;
+R=1e4;
+T=0.01;
+Vt=0.025;
+Is=1e-6;
+N=2;
+interfata(A,R,T,N,Vt,Is);
